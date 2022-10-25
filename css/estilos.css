@@ -1,0 +1,56 @@
+body {
+
+    background-color: #c4a1d7;
+
+}
+
+#caja {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#parte2C {
+    padding-left: 30px;
+}
+
+#titulo {
+    padding-top: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+
+#contenedor {
+    width: 720px;
+    margin: 10px;
+    padding: 100px;
+    background-color: rgb(121, 36, 107);
+    width: auto;
+    height: auto;
+    font-family: cursive;
+}
+
+#parrafo1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#botonArchivos {
+    text-align: center;
+}
+
+#juego {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+img {
+    /*width: 120px;
+    height: 120px; */
+    width: auto;
+    height: auto;
+    border: 5px rgb(136, 48, 187) solid;
+    margin-left: 10px;
+}

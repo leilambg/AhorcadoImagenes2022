@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahorcado</title>
+  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+
+<body>
+  <div id="caja">
+    <div id="parte1C">
+      <h1 id="titulo">Juego del Ahorcado con Imágenes</h1>
+    </div>
+    <div id="parte2C">
+      <img src="./imagenes/ahorcadoG.gif" alt="logos" />
+    </div>
+  </div>
+  <div id="contenedor">
+    <p id="parrafo1">Importa las imágenes con las que quieras jugar y selecciónalas:</p>
+    <div id="botonArchivos">
+      <input type="file" id="files" multiple />
+    </div>
+
+    <div id="juego">
+      <b>Caracter :</b>
+      <input type="text" id="caracter" maxlength="1" />
+      <b>Aciertos :</b>
+      <input type="text" id="Aciertos" />
+      <b>Fallos :</b>
+      <span id="fallos"> </span>
+    </div>
+
+  </div>
+
+
+</body>
+<script src="js/funciones.js"></script>
+
+</html>
